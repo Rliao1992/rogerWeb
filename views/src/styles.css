@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    -webkit-font-smoothing: antialiased;
+    font-family: "Hiragino Sans GB", 微软雅黑, "Microsoft JhengHei", "WenQuanYi Micro Hei", "Helvetica Neue", Verdana, Arial, Helvetica, sans-serif !important;
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

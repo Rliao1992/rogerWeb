@@ -1,0 +1,34 @@
+﻿{
+  "portfolios": [
+    {
+      "title": "Dine And Match",
+      "description": "I created a PHP file that contains arrays representing all the possible results that will respond to all the combo requests that are sent from the client side with jQuery AJAX technolgy.",
+      "url": "http://www.liaoroger.com/WineNot/",
+      "github": "https://github.com/Rliao1992/Dine-and-Match",
+      "thumbnail": "http://www.liaoroger.com/view/Assets/thumbnail/DineMatchThumb.png",
+      "id": 1,
+      "skillset": [ "HTML5", "CSS3", "jQuery", "PHP5", "AJAX" ],
+      "concept": "Dine and Match is a website that allows users find the best wine match for their dinner"
+    },
+    {
+      "concept": "My inspiration comes from the Yelp website, which is gathers various restaurant information, including their phone number, location address, website and business hours. My UI Design inspiration comes from a food application, using Windows 8 flat style button design.",
+      "description": "I have contributed my HTML, CSS and Javascript skills into the creation of this web application, focusing on creating a flat-styled and fully functional interface. Also, I experimented with some CSS animations to help enhance the user's experience.",
+      "github": "https://github.com/Rliao1992/OysterLover",
+      "id": 2,
+      "skillset": ["HTML5", "CSS3", "jQuery"],
+      "thumbnail": "http://www.liaoroger.com/view/Assets/thumbnail/OysterAppThumb.png",
+      "title": "Oyster Lover",
+      "url": "http://www.liaoroger.com/OysterLover/"
+    },
+    {
+      "concept": "Siesta is the app that allows BCIT students find the nap location during the break.",
+      "description": "As a part of the project team, I developed the function that allow the clientside connect to database using Ajax and PHP server script. Also the website users can update and store their personal information.",
+      "github": "https://github.com/bdwalsh/Siesta",
+      "id": 3,
+      "skillset": [ "HTML5", "CSS3", "JavaScript", "PHP5", "MySQL" ],
+      "thumbnail": "http://www.liaoroger.com/view/Assets/thumbnail/SiestaThumb.png",
+      "title": "Siesta",
+      "url": "http://siestabcit.com/"
+    }
+  ]
+}

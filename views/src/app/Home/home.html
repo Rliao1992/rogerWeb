@@ -1,5 +1,21 @@
 ﻿
-<div class="">
-    <h1 (click)="console()">{{title}}</h1>
-    <p>{{description}}</p>
+<div class="row">
+    <div class="col-xs-12 text-xs-center image-background">
+        <div class="image-background-text">
+            <h1 (click)="getPortfolio()">
+                {{title}}
+            </h1>
+            <p>
+                {{description}}
+            </p>
+            <i class="fa fa-angle-double-down fa-3x bounce mt-1"></i>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4 text-xs-center" *ngFor="let portfolio of portfolios">
+        <h3>{{portfolio.title}}</h3>
+        <img [src]="portfolio.thumbnail" width="100"/>
+        <p>{{portfolio.skillset}}</p>
+    </div>
 </div>

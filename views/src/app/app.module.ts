@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { homeHeaderComponent } from './Home/home.component';
+import { PortfolioService } from "./Home/portfolio.service"
 
 @NgModule({
     declarations: [
@@ -12,7 +13,7 @@ import { homeHeaderComponent } from './Home/home.component';
     imports: [
         BrowserModule,
         FormsModule,
-        HttpModule
+        HttpModule,
     ],
     providers: [],
     bootstrap: [
